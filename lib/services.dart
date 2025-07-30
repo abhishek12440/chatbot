@@ -10,7 +10,7 @@ Future<String> chatbot(String Usertext) async {
         "contents": [
           {
             "parts": [
-              {"text": "prompts"}
+              {"text": Usertext}
             ]
           }
         ]
